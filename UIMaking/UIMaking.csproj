@@ -104,6 +104,9 @@
     <EmbeddedResource Include="Forms\frmShipments.resx">
       <DependentUpon>frmShipments.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmUsers.resx">
+      <DependentUpon>frmUsers.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
