@@ -33,6 +33,14 @@ namespace ErpBasic
             tabControl1.MouseDown += TabControl1_MouseDown;
             tabControl1.SelectedIndexChanged += TabControl1_SelectedIndexChanged;
 
+            // 탭을 고정 크기로 쓰고(OwnerDrawFixed는 보통 Fixed가 안정적)
+            tabControl1.SizeMode = TabSizeMode.Fixed;
+            // 기본 크기(폭/높이) 넉넉하게
+            tabControl1.ItemSize = new Size(100, 30);
+            // 탭 내부 여백(글자 양옆/위아래 패딩)
+            tabControl1.Padding = new Point(20, 3);
+
+
             // MDI 자식 활성화 시 탭 싱크
             this.MdiChildActivate += frmMain_MdiChildActivate;
 
