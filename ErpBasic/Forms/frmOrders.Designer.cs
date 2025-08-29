@@ -1,6 +1,6 @@
-﻿namespace UIMaking.Forms
+﻿namespace ErpBasic.Forms
 {
-    partial class frmCustomers
+    partial class frmOrders
     {
         /// <summary>
         /// Required designer variable.
@@ -28,33 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(336, 195);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(97, 12);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "거래처 관리 화면";
-            // 
-            // frmCustomers
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
-            this.Name = "frmCustomers";
-            this.Text = "frmCustomers";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            this.Text = "frmOrders";
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
     }
 }

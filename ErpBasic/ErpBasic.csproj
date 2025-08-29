@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9BF13DE0-39D7-4327-8E0F-05265E7AC07D}</ProjectGuid>
+    <ProjectGuid>{634B98BD-A656-4B89-938F-6A666EC7AAB2}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>UIMaking</RootNamespace>
-    <AssemblyName>UIMaking</AssemblyName>
+    <RootNamespace>ErpBasic</RootNamespace>
+    <AssemblyName>ErpBasic</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,7 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CommonUtil.cs" />
     <Compile Include="Forms\frmCustomers.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,18 +91,6 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\MenuService.cs" />
-    <EmbeddedResource Include="Forms\frmCustomers.resx">
-      <DependentUpon>frmCustomers.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\frmOrders.resx">
-      <DependentUpon>frmOrders.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\frmProducts.resx">
-      <DependentUpon>frmProducts.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\frmShipments.resx">
-      <DependentUpon>frmShipments.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmUsers.resx">
       <DependentUpon>frmUsers.cs</DependentUpon>
     </EmbeddedResource>

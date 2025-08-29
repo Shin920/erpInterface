@@ -8,13 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace UIMaking.Forms
+namespace ErpBasic.Forms
 {
-    public partial class frmWorkbench : Form
+    public partial class frmOrders : Form
     {
-        public frmWorkbench()
+        public frmOrders()
         {
             InitializeComponent();
+            Text = "주문 등록";
         }
     }
 }

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36401.2 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIMaking", "UIMaking\UIMaking.csproj", "{9BF13DE0-39D7-4327-8E0F-05265E7AC07D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErpBasic", "ErpBasic\ErpBasic.csproj", "{634B98BD-A656-4B89-938F-6A666EC7AAB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9BF13DE0-39D7-4327-8E0F-05265E7AC07D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9BF13DE0-39D7-4327-8E0F-05265E7AC07D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9BF13DE0-39D7-4327-8E0F-05265E7AC07D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9BF13DE0-39D7-4327-8E0F-05265E7AC07D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{634B98BD-A656-4B89-938F-6A666EC7AAB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{634B98BD-A656-4B89-938F-6A666EC7AAB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{634B98BD-A656-4B89-938F-6A666EC7AAB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{634B98BD-A656-4B89-938F-6A666EC7AAB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {52814428-B67B-40A1-9481-5900B80E45C7}
+		SolutionGuid = {0949249B-3A4E-4C29-BA59-44C9379C1979}
 	EndGlobalSection
 EndGlobal

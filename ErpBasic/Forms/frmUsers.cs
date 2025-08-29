@@ -8,15 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace UIMaking.Forms
+namespace ErpBasic.Forms
 {
-    public partial class frmOrders : Form
+    public partial class frmUsers : Form
     {
-        public frmOrders()
+        public frmUsers()
         {
             InitializeComponent();
-            this.Text = "주문 등록";
-            this.BackColor = System.Drawing.Color.White;
+            Text = "사용자 관리";
         }
     }
 }

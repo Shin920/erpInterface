@@ -1,16 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UIMaking.Services
+namespace ErpBasic.Services
 {
     public static class MenuService
     {
-        // 샘플 메뉴 스키마:
-        // Menu_Level(1=대분류, 2=소분류), Screen_Code, Parent_Screen_Code, Sort_Index, Menu_Name, Program_Name
         public static DataTable GetUserMenuList()
         {
             var dt = new DataTable();
@@ -29,7 +27,7 @@ namespace UIMaking.Services
 
             // 소분류 (대분류: 100)
             dt.Rows.Add(2, 110, 100, 1, "거래처 관리", "frmCustomers");
-            dt.Rows.Add(2, 120, 100, 2, "제품 관리", "frmProducts"); 
+            dt.Rows.Add(2, 120, 100, 2, "제품 관리", "frmProducts");
             dt.Rows.Add(2, 130, 100, 3, "사용자 관리", "frmUsers");
 
             // 소분류 (대분류: 200)
@@ -38,7 +36,6 @@ namespace UIMaking.Services
 
             // 소분류 (대분류: 300)
             dt.Rows.Add(2, 310, 300, 1, "공정 관리", "frmWorkbench");
-            
 
             return dt;
         }

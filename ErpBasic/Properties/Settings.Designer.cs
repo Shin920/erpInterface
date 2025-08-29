@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace UIMaking.Properties
+namespace ErpBasic.Properties
 {
 
 
